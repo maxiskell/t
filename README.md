@@ -35,7 +35,7 @@ This is a hyper-minimalist and modest version of [joshmedeski](https://github.co
 ### From wherever in your terminal, run the following
 
 ```sh
-git clone git@github.com:maxiskell/t.git && mv t/t /usr/local/bin && rm -rf t
+git clone git@github.com:maxiskell/t.git && sudo mv t/t /usr/local/bin && rm -rf t
 ```
 
 ### Recommended tmux settings
