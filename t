@@ -1,4 +1,9 @@
 #!/bin/sh
+#
+if [ $# -eq 0 ]; then
+    >&2 echo "t: invalid zoxide query"
+    exit 1
+fi
 
 if [ "$1" = "-h" ] || [ "$1" == "--help" ]; then
 	echo "\nt - zoxide-powered smart tmux sessions\n"
